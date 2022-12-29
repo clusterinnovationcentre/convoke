@@ -3960,6 +3960,13 @@ h1.logo {
     vertical-align: middle;
 }
 
+.sponsor-list.sponsors-old .sponsor {
+    width: 167px;
+    height: 93px;
+    line-height: 93px;
+    outline:10px solid #ffffff;
+}
+
 .sponsor-list.sponsors-platinum .sponsor {
     width: 289px;
     height: 160px;
