@@ -627,6 +627,12 @@ button.button.button-primary {
     color: #000122;
 }
 
+a.button.button-primary-dark,
+button.button.button-primary-dark {
+    background: #000122;
+    color: #21C5D1;
+}
+
 a.button.button-primary:hover,
 a.button.button-primary:focus,
 button.button.button-primary:hover,
