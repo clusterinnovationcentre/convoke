@@ -4005,6 +4005,12 @@ h1.logo {
     outline:10px solid #ffffff;
 }
 
+.section-sponsors.sponsor-table {
+    display: block;
+    position: relative;
+    background-color: #f6f6f6;
+}
+
 .section-earlybird {
     background: white;
     color: #21C5D1;
