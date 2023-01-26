@@ -3973,11 +3973,18 @@ h1.logo {
     outline:10px solid #ffffff;
 }
 
-.sponsor-list.sponsors-platinum .sponsor {
+.sponsor-list.sponsors-title .sponsor {
     width: 289px;
     height: 160px;
     line-height: 160px;
-    outline:10px solid #ffffff;
+    outline:10px solid
+}
+
+.sponsor-list.sponsors-platinum .sponsor {
+    width: 240px;
+    height: 160px;
+    line-height: 160px;
+    outline:10px solid #b9f2ff;
 }
 
 .sponsor-list.sponsors-gold .sponsor {
