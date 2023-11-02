@@ -714,7 +714,18 @@ svg {
 }
 
 .logo-text{
-    margin-left: -4px;
+    margin-left: 20px;
+}
+
+.superscript-text {
+    font-size: 14px;
+    position: relative;
+    top: -5px;
+}
+
+.logo-container {
+    display: flex;
+    justify-content: center;
 }
 
 @media (-webkit-min-device-pixel-ratio: 2),
