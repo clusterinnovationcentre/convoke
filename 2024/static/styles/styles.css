@@ -7067,7 +7067,7 @@ body:not(.streaming) #stream {
     background: white;
     position: relative;
     margin: 0 auto;
-    *zoom: 1;
+    zoom: 1;
 }
 
 .md-content:before,
