@@ -962,8 +962,7 @@ h1.logo {
 
 .illustration {
     position: relative;
-    background: url(images/illustration.png) no-repeat 50% 0%;
-    margin-top: -39px;
+    background: url(images/illustration.png) no-repeat 50% 0%; 
     height: 590px;
     padding: 1px;
 }
