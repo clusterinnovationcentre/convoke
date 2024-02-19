@@ -708,13 +708,12 @@ svg {
     background-position: -2px 0; */
 }
 
+.logo-text{
+    width: 700px; height: auto; border-radius: 20px; padding:0px; margin-bottom: -120px; margin-top: -32px;
+}
 
 .logo-img{
     margin-left: 18px;
-}
-
-.logo-text{
-    margin-left: 20px;
 }
 
 .superscript-text {
@@ -726,6 +725,21 @@ svg {
 .logo-container {
     display: flex;
     justify-content: center;
+}
+
+@media screen and (max-width: 768px){ 
+
+    .logo-text{
+        width: 100%;
+    }
+
+    .logo-container{
+        justify-items: center;
+        margin-left: auto;
+        margin-right: auto;
+        padding-bottom: 50px;
+    }
+
 }
 
 @media (-webkit-min-device-pixel-ratio: 2),
@@ -863,6 +877,7 @@ only screen and (min-resolution: 2dppx) {
     margin-bottom: 25px;
     font-size: 36px;
     font-weight: bold;
+    padding-bottom: 80px;
 }
 
 .section-header code {
@@ -975,6 +990,51 @@ h1.logo {
     top: -60px;
     left: 50%;
     margin-left: -21.5px;
+}
+
+.events-holder{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mini-event-item {
+    display: inline-block;
+    width: 32%;
+    height: 540px;
+    background-color: #090a2b;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+}
+
+.mini-event-poster{
+    display: block;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.mini-event-register{
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+    font-size: large;
+}
+
+@media screen and (max-width: 786px) {
+
+    .events-holder{
+        display: block;
+    }
+
+    .mini-event-item{
+        display: block;
+        width: 90%;
+        height: 620px;
+        margin-bottom: 20px;
+    }
+    
 }
 
 .global-stats {
@@ -3684,18 +3744,18 @@ h1.logo {
 }
 
 .events {
-    background: #bcc7cf;
+    background: #21c5d1;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 50% 50%;
     margin-bottom: 2px;
 }
 
-.events.hash-hacks {
+/* .events.hash-hacks {
     background-image: url(../images/events/hash-hacks.jpg);
-}
+} */
 
-.events.hash-define {
+/* .events.hash-define {
     background-image: url(../images/events/hashdefine.png);
 }
 
@@ -3745,7 +3805,7 @@ h1.logo {
 
 .events.fastclaim{
     background-image: url(../images/events/FastClaim.png);
-}
+} */
 
 .events .description {
     margin-left: 50%;
@@ -3765,11 +3825,11 @@ h1.logo {
     color: #21C5D1;
 }
 
-.events p {
+/* .events p {
     line-height: 140%;
     font-size: 18px;
     text-align: left;
-}
+} */
 
 .events p a {
     color: white;
